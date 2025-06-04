@@ -1,6 +1,8 @@
 import FirstComponent from './components/FirstComponent'
 import './App.css'
 import TemplateExpressions from './components/TemplateExpressions'
+import MyComponents from './components/MyComponents'
+import Events from './components/Events'
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <FirstComponent />
       <p>Este é o primeiro componente do nosso projeto!</p>
       <TemplateExpressions />
+      <MyComponents />
+      <Events />
     </div>
     /*  */
   )
